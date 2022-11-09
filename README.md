@@ -63,7 +63,3 @@ CEREA (Centre d'Enseignement et de Recherche en Environnement Atmosphérique) at
 ##  Support
 
 Contact: joffrey.dumont@enpc.fr
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
