@@ -18,7 +18,7 @@ scons
 ./mcmc myconfiguration/config-conc.cfg
 ```
 
-## Description
+##  Description
 
 IBISA is written in .cpp and organised in classes.
 Each class is located in a file with the same name, in a folder with the same name.
@@ -44,8 +44,7 @@ storage: the Storage class is used to store the results of the reversible jump M
 
 main: the paralleltempering.cpp file is used to call the MCMC reversible jump algorithm and describes its cycle.
 
-
-## Authors and acknowledgment
+##  Authors and acknowledgment
 
 This code corresponds to the article 
 Bayesian transdimensional inverse reconstruction of the 137Cs Fukushima-Daiichi release
@@ -54,11 +53,10 @@ and was developed as part of a PhD at
 the IRSN (Institut de radioprotection et de sûreté nucléaire), Fontenay-aux-Roses, France
 and the CEREA (Centre d'Enseignement et de Recherche en Environnement Atmosphérique) at the Ecole des Ponts and EDF R&D, Île de France, France
 
-## Support
+##  Support
 
 Contact joffrey.dumont@enpc.fr
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-# ibisa
