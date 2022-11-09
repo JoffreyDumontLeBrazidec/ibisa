@@ -46,8 +46,8 @@ main: the paralleltempering.cpp file is used to call the MCMC reversible jump al
 
 ##  Authors and acknowledgment
 
-This code corresponds to the article 
-Bayesian transdimensional inverse reconstruction of the 137Cs Fukushima-Daiichi release
+This code goes along the article: 
+"Bayesian transdimensional inverse reconstruction of the 137Cs Fukushima-Daiichi release"
 by Joffrey Dumont Le Brazidec, Olivier Saunier, Marc Bocquet, and Yelva Roustan
 and was developed as part of a PhD at 
 the IRSN (Institut de radioprotection et de sûreté nucléaire), Fontenay-aux-Roses, France
