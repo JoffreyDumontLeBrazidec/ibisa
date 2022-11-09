@@ -52,11 +52,11 @@ Each folder is described below:
 
 ##  Authors and acknowledgment
 
-This code goes along the article: 
+This code goes along the article:__
+"Bayesian transdimensional inverse reconstruction of the 137Cs Fukushima-Daiichi release"__
+Joffrey Dumont Le Brazidec, Olivier Saunier, Marc Bocquet, and Yelva Roustan__
 
-"Bayesian transdimensional inverse reconstruction of the 137Cs Fukushima-Daiichi release"
-by Joffrey Dumont Le Brazidec, Olivier Saunier, Marc Bocquet, and Yelva Roustan
-and was developed as part of a PhD at 
+It was developed as part of a PhD at 
 the IRSN (Institut de radioprotection et de sûreté nucléaire), Fontenay-aux-Roses, France
 and the CEREA (Centre d'Enseignement et de Recherche en Environnement Atmosphérique) at the Ecole des Ponts and EDF R&D, Île de France, France
 
