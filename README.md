@@ -1,6 +1,6 @@
 # IBISA
 
-IBISA (Inverse Bayesian Inference for Source Assessment) describes the sampling of radionuclide release sources using the Reversible Jump MCMC algorithm.
+IBISA (Inverse Bayesian Inference for Source Assessment) is an radionuclide release source sampling algorithm.
 
 ## Installation
 
