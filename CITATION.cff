@@ -1,0 +1,14 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Dumont Le Brazidec"
+  given-names: "Joffrey"
+- family-names: "Bocquet"
+  given-names: "Marc"
+- family-names: "Saunier"
+  given-names: "Olivier"
+- family-names: "Roustan"
+  given-names: "Yelva"
+title: "Inverse Bayesian Inference for Source Assesment"
+version: 1.0.0
+date-released: 2022-11-09

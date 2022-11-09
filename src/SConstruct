@@ -1,0 +1,107 @@
+import os
+from path import Path
+import glob
+
+def getSubdirs(abs_path_dir) :  
+    lst = [ name for name in os.listdir(abs_path_dir) if os.path.isdir(os.path.join(abs_path_dir, name)) and name[0] != '.' ]
+    lst.sort()
+    return lst
+
+# environment
+env = Environment(ENV = os.environ)
+
+# compiler
+# env['CXX'] = '/usr/local/bin/g++-8'
+
+# environment flags
+flags = {}
+
+# c++ compilation flags
+# -std=c99 for old version or std=c++11 for new version
+flags['CCFLAGS'] = ['-std=c++11',
+    '-Wall',
+    '-Wextra',
+    '-Wnon-virtual-dtor',
+    '-Wunused',
+    '-Woverloaded-virtual',
+#    '-Wold-style-cast',
+    '-pedantic',
+    '-Wshadow',
+    '-ftemplate-backtrace-limit=0',
+    '-fopenmp',
+    '-Wno-write-strings']
+
+
+# c++ path
+flags['CPPPATH'] = ['/cerea_raid/users/dumontj/dev/cmcmc/IBISA/', 
+                    '/cerea_raid/users/dumontj/dev/cmcmc/EigenAlgebra/',
+                    '/cerea_raid/users/dumontj/dev/cmcmc/TPPDA'
+]
+
+# link flags
+flags['LINKFLAGS'] = ['-fopenmp']
+
+# merge flags
+env.MergeFlags(flags)
+
+# libraries
+libraries = ['lapack', 
+            'fftw3', 
+            'm', 
+            'libnetcdf_c++'
+]
+conf = Configure(env)
+for library in libraries:
+	conf.CheckLib(library)
+env = conf.Finish()
+
+# line
+if not 'line' in ARGUMENTS or ARGUMENTS['line'] == 'no':
+    env.Replace(CCCOMSTR   = '[C]       $SOURCE')
+    env.Replace(CXXCOMSTR  = '[C++]     $SOURCE')
+    env.Replace(LINKCOMSTR = '[Linking] $TARGET')
+
+# debug flags
+flags = {}
+if 'debug' in ARGUMENTS and ARGUMENTS['debug'] == 'yes':
+    flags['CCFLAGS']    = ['-Og']
+    flags['CPPDEFINES'] = []
+else:
+    flags['CCFLAGS']    = ['-Ofast']
+    flags['CPPDEFINES'] = ['NDEBUG']
+# for debug
+flags['CCFLAGS']    = ['-Og']
+flags['CPPDEFINES'] = []
+flags['CCFLAGS']    = ['-Ofast']
+flags['CPPDEFINES'] = ['NDEBUG']
+
+env.MergeFlags(flags)
+
+# programs
+
+
+sources_pt = ['main-mcmc.cpp']
+
+corePath = '/cerea_raid/users/dumontj/dev/cmcmc/IBISA'
+modules = getSubdirs(corePath)
+print ('modules', modules, '\n')
+for module in modules :
+    sources_pt += glob.glob (os.path.join(corePath, module, '*.cpp'))
+
+
+print ('sources_pt', sources_pt)
+nameLauncher = 'mcmc'
+env.Program(target=nameLauncher, source=sources_pt)
+
+
+
+
+
+
+# Help
+
+# env.Program(target='executable', source=sources)
+#for source in sources:
+#    env.Program(target=source.name.replace('.cpp', ''), source=source.name, LIBS=libraries)
+#env.Program(target='test', source=['lance.cpp', 'state/MarkovState.cpp'])
+

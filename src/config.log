@@ -1,0 +1,99 @@
+file /cerea_raid/users/dumontj/dev/cmcmc/article_fuku_codes/SConstruct,line 53:
+	Configure(confdir = .sconf_temp)
+scons: Configure: Checking for C library lapack... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.o -c -std=c++11 -Wall -Wextra -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -pedantic -Wshadow -ftemplate-backtrace-limit=0 -fopenmp -Wno-write-strings -I/cerea_raid/users/dumontj/dev/cmcmc/IBISA -I/cerea_raid/users/dumontj/dev/cmcmc/EigenAlgebra -I/cerea_raid/users/dumontj/dev/cmcmc/TPPDA .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.c
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0_627f8642196375e3d8ed8dc7932dab0f" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0_627f8642196375e3d8ed8dc7932dab0f -fopenmp .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_0.o -llapack
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library fftw3... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.o -c -std=c++11 -Wall -Wextra -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -pedantic -Wshadow -ftemplate-backtrace-limit=0 -fopenmp -Wno-write-strings -I/cerea_raid/users/dumontj/dev/cmcmc/IBISA -I/cerea_raid/users/dumontj/dev/cmcmc/EigenAlgebra -I/cerea_raid/users/dumontj/dev/cmcmc/TPPDA .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.c
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1_036bacb4e138360cd5b7f06957afd368" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1_036bacb4e138360cd5b7f06957afd368 -fopenmp .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_1.o -llapack -lfftw3
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library m... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.o -c -std=c++11 -Wall -Wextra -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -pedantic -Wshadow -ftemplate-backtrace-limit=0 -fopenmp -Wno-write-strings -I/cerea_raid/users/dumontj/dev/cmcmc/IBISA -I/cerea_raid/users/dumontj/dev/cmcmc/EigenAlgebra -I/cerea_raid/users/dumontj/dev/cmcmc/TPPDA .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.c
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2_3e2927f90253815c9ffff2d729a4cd60" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2_3e2927f90253815c9ffff2d729a4cd60 -fopenmp .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_2.o -llapack -lfftw3 -lm
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library libnetcdf_c++... 
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |.sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.o -c -std=c++11 -Wall -Wextra -Wnon-virtual-dtor -Wunused -Woverloaded-virtual -pedantic -Wshadow -ftemplate-backtrace-limit=0 -fopenmp -Wno-write-strings -I/cerea_raid/users/dumontj/dev/cmcmc/IBISA -I/cerea_raid/users/dumontj/dev/cmcmc/EigenAlgebra -I/cerea_raid/users/dumontj/dev/cmcmc/TPPDA .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.c
+  |
+scons: Configure: ".sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3_a964f33ed5284aef3f9d189312427967" is up to date.
+scons: Configure: The original builder output was:
+  |gcc -o .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3_a964f33ed5284aef3f9d189312427967 -fopenmp .sconf_temp/conftest_df286a1d2f67e69d030b4eff75ca7e12_3.o -llapack -lfftw3 -lm -lnetcdf_c++
+  |
+scons: Configure: (cached) yes
+
+
