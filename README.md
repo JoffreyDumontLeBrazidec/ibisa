@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/563891492.svg)](https://zenodo.org/badge/latestdoi/563891492)
+
 # IBISA
 
 The goal of IBISA (Inverse Bayesian Inference for Source Assessment) is to provide an algorithm to
