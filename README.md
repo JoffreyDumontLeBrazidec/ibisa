@@ -58,7 +58,7 @@ Joffrey Dumont Le Brazidec, Olivier Saunier, Marc Bocquet, and Yelva Roustan
 
 It was developed as part of a PhD at   
 IRSN (Institut de radioprotection et de sûreté nucléaire), Fontenay-aux-Roses, France   
-CEREA (Centre d'Enseignement et de Recherche en Environnement Atmosphérique) at the Ecole des Ponts and EDF R&D, Île de France, France    
+CEREA (Centre d'Enseignement et de Recherche en Environnement Atmosphérique) at the Ecole des Ponts and EDF R&D, Ile de France, France    
 
 ##  Support
 
